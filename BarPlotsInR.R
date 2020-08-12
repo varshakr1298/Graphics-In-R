@@ -16,4 +16,4 @@ barplot(x,col="pink")
 #Plotting mean sepal length species wise as Bar PLot
 attach(iris)
 y<-tapply(Sepal.Length, Species, mean)
-barplot(y,col="blu
+barplot(y,col="blue")
